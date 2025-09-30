@@ -1,0 +1,1 @@
+Create a class 'Book' with data members like title, author, and price. Use member functions to input and display book details.
