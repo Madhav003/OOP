@@ -1,0 +1,8 @@
+# Ignore executables named exp6a, exp6b, etc. (no extensions)
+exp6a
+exp6b
+exp6c
+exp6e
+
+# Ignore all .out files
+*.out
