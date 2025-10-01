@@ -12,8 +12,7 @@ public:
         cout << "Converted int (" << centimeters << " cm) to Distance\n";
     }
 
-    Distance(double m)
-        : meters(m) {
+    Distance(double m) : meters(m) {
         cout << "Converted double (" << m << " m) to Distance\n";
     }
 
