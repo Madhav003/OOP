@@ -21,7 +21,7 @@ public:
     }
 };
 int main() {
-    Student student("Alice", 20, "Computer Science");
+    Student student("Madhav", 20, "Computer Science");
     student.displayInfo();
     return 0;
 }
