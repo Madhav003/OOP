@@ -9,3 +9,4 @@ exp7c
 viva
 # Ignore all .out files
 *.out
+*.exe

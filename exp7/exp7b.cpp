@@ -11,10 +11,6 @@ public:
     bool operator==(const String& other) const {
         return data == other.data;
     }
-
-    const string& value() const {
-        return data;
-    }
 };
 
 int main() {
@@ -28,3 +24,4 @@ int main() {
 
     return 0;
 }
+

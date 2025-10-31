@@ -1,4 +1,4 @@
-//a)write some simple code.	Create a base class 'Person' and a derived class 'Student' to demonstrate single inheritance.
+//a) Create a base class 'Person' and a derived class 'Student' to demonstrate single inheritance.
 #include <iostream>
 using namespace std;
 class Person {
@@ -21,7 +21,7 @@ public:
     }
 };
 int main() {
-    Student student("Madhav", 20, "Computer Science");
+    Student student("Madhav", 18, "Computer Science");
     student.displayInfo();
     return 0;
 }

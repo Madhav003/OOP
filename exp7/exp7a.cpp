@@ -26,3 +26,6 @@ int main() {
     cout << endl;
     return 0;
 }
+
+// Complex operator+ (const Comlpex &other) const {
+//  return Complex(real + other.real, imag + other.imag)}

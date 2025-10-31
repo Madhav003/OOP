@@ -1,23 +1,34 @@
-//Create a base class with a virtual function and derive class to override it, demonstrating runtime polymorphism.
+//Create a base class with a virtual function and derive class to override it, demonstrating runtime polymorphism. dont use pointers, just normal
 #include <iostream>
 using namespace std;
-class Base {
+
+class Animal {
 public:
-    virtual void show() {
-        cout << "Base class show function called." << endl;
+    virtual void sound() {
+        cout << "Animal makes a sound." << endl;
     }
 };
-class Derived : public Base {
+class Dog : public Animal {
 public:
-    void show() override {
-        cout << "Derived class show function called." << endl;
+    void sound() override {
+        cout << "Dog barks." << endl;
     }
 };
 
+class Cat : public Animal {
+public:
+    void sound() override {
+        cout << "Cat meows." << endl;
+    }
+};
 int main() {
-    Base* bptr;
-    Derived d;
-    bptr = &d;
-    bptr->show();
+    Animal a;
+    Dog d;
+    Cat c;
+
+    a.sound();
+    d.sound(); 
+    c.sound(); 
+
     return 0;
 }
