@@ -16,7 +16,7 @@ public:
         cout << "Derived class constructor called." << endl;
     }
 };
-class AnotherDerived : virtual public Base {
+class AnotherDerived : virtual public Derived {
 public:
     AnotherDerived() {
         cout << "AnotherDerived class constructor called." << endl;
